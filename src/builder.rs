@@ -1,6 +1,7 @@
 //! PaperAge
 use std::io::{BufReader, Cursor};
 
+use log::{trace,debug};
 use printpdf::{
     Color, IndirectFontRef, Line, LineDashPattern, Mm, PdfDocument, PdfDocumentReference,
     PdfLayerIndex, PdfLayerReference, PdfPageIndex, Point, Pt, Rect, Rgb, Svg, SvgTransform,

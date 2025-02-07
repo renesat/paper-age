@@ -1,6 +1,7 @@
 //! Age based encryption
 use std::io::Write;
 
+use log::debug;
 use age::armor::ArmoredWriter;
 use age::armor::Format::AsciiArmor;
 use age::secrecy::SecretString;
